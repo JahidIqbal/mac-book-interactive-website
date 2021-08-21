@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mac</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+
+<body>
+    <section class="c">
+        <div class="row p-5  d-flex align-items-center">
+            <div class="col-lg-5">
+                <img src="images/mac.png" class="d-block w-100" alt="...">
+
+            </div>
+            <div class="col-lg-7">
+                <h1>Customize your Blue-24 Inch Imac with Apple M1 chip
+                </h1>
+                <p>The M1 is also a system on a chip (SOC) with integrated graphics and onboard memory. The included GPU
+                    has 8 cores as well, with 128 total compute units and 2.6 teraflops of throughput (there is one
+                    exception here: the entry level MacBook Air uses a version of the M1 with a 7-core GPU).
+                </p>
+
+                <!-- memory part -->
+                <div class="mt-4">
+                    <h2>Memory</h2>
+                    <Button id="eight-gb">8GB unified Memory</Button>
+                    <button id="sixteen-gb">16GB unified Memory</button>
+                </div>
+
+                <!-- storage part -->
+                <div class="mt-4">
+                    <h2>Storage</h2>
+                    <Button id="first-storage">256GB SSD Storage</Button>
+                    <Button id="second-storage">512GB SSD Storage</Button>
+                    <Button id="third-storage">1TB SSD Storage</Button>
+                </div>
+
+                <!-- delivery part -->
+                <div class="mt-4">
+                    <h2>Choose your delivery option</h2>
+                    <Button id="first-delivery">Friday,Aug 25 Free Prime Delivery</Button>
+                    <Button id="second-delivery">Friday,Aug 21 Delivery Charge $20 </Button>
+                </div>
+
+
+                <div class="cart-item">
+                    <div class="row">
+
+                        <div class="col-md-8 mt-4">
+                            <h5>Best Price </h5>
+                            <h5>Extra Memory Cost</h5>
+                            <h5>Extra Storage Cost</h5>
+                            <h5>Delivery Charge</h5>
+                            <hr>
+                            <h5>Total Price</h5>
+                        </div>
+
+                        <div class="col-md-4 status mt-4">
+                            <h5>$ <span id="best-price">1299</span></h5>
+                            <h5>$<span id="memory-cost">0</span></h5>
+                            <h5>$<span id="storage-cost">0</span></h5>
+                            <h5>$ <span id="Delivery Charge-Total">0</span> </h5>
+                            <hr>
+                            <h5>$<span id="total-price">1299</span></h5>
+                        </div>
+                    </div>
+                    <hr>
+                    <!-- promocode -->
+                    <div>
+                        <h2>Add Promo Code</h2>
+                        <input id="promo-code" type="text"> <button id="apply-button">Apply</button>
+                        <hr>
+                        <h2>Total: <span id="discount-field">$1299</span></h2>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+
+
+        </div>
+    </section>
+    <script src="mac.js"></script>
+</body>
+
+</html>
